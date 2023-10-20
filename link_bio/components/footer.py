@@ -13,7 +13,7 @@ def footer() -> rx.Component:
             font_size=Size.MEDIUM.value
         ),
         rx.text(
-            "BUILDING SOFTWARE WITH ♥ FROM MADRID TO THE WORLD.",
+            "BUILDING SOFTWARE WITH ❤ FROM MADRID TO THE WORLD.",
             font_size=Size.MEDIUM.value,
             margin_top="0px !important"
         ),
