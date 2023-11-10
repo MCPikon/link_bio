@@ -1,23 +1,20 @@
 import reflex as rx
+import link_bio.styles.styles as styles
+from link_bio.styles.colors import Color
 from link_bio.styles.styles import Size as Size
 
 
 def navbar() -> rx.Component:
     return rx.hstack(
-        rx.text(
-            "MCPikon",
-            background_image="linear-gradient(271.68deg, #EE756A 0.75%, #756AEE 88.52%)",
-            background_clip="text",
-            font_weight="bold",
-            font_size="2em",
-        ),
         rx.box(
-            rx.color_mode_button(rx.color_mode_icon(), width="2%", float="right")
+            rx.span("MC", color=Color.PRIMARY.value),
+            rx.span("Pikon", color=Color.SECONDARY.value),
+            style=styles.navbar_title_style,
         ),
         position="sticky",
-        bg="black",
-        padding_x=Size.DEFAULT.value,
-        padding_y=Size.SMALL.value,
+        bg=Color.CONTENT.value,
+        padding_x=Size.BIG.value,
+        padding_y=Size.DEFAULT.value,
         z_index="999",
-        top="0"
+        top="0",
     )
