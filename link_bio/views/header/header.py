@@ -11,7 +11,7 @@ def header() -> rx.Component:
             rx.avatar(
                 name="Javier Picón",
                 size="xl",
-                src="avatar.png",
+                src="avatar.jpg",
                 color=TextColor.BODY.value,
                 bg=Color.CONTENT.value,
                 padding="2px",

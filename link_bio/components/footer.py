@@ -7,7 +7,7 @@ from link_bio.styles.styles import Size as Size
 
 def footer() -> rx.Component:
     return rx.vstack(
-        rx.image(src="myavatar.svg", width="8%"),
+        rx.image(src="myavatar.svg", width=Size.XXL.value),
         rx.link(
             rx.box(
                 f"© {datetime.date.today().year} ",

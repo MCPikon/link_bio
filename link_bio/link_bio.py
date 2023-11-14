@@ -33,6 +33,6 @@ app.add_page(
     index,
     title="Javier Picón (MCPikon) | Java Developer",
     description="Hola, mi nombre es Javier Picón. Soy desarrollador full-stack",
-    image="avatar.png",
+    image="avatar.jpg",
 )
 app.compile()

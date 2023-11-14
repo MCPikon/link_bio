@@ -16,6 +16,7 @@ class Size(Enum):
     LARGE = "1.5em"
     BIG = "2em"
     VERY_BIG = "4em"
+    XXL = "10em"
 
 
 # Styles
@@ -35,7 +36,7 @@ BASE_STYLE = {
     rx.Link: {"text_decoration": "none", "_hover": {}},
 }
 
-navbar_title_style = dict(font_size=Size.LARGE.value)
+navbar_title_style = dict(font_size=Size.LARGE.value, font_weight="bold")
 
 title_style = dict(
     width="100%",
