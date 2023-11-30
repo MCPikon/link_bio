@@ -8,19 +8,13 @@ from link_bio.styles.styles import Size as Size
 def footer() -> rx.Component:
     return rx.vstack(
         rx.image(src="myavatar.svg", width=Size.XXL.value),
-        rx.link(
-            rx.box(
-                f"© {datetime.date.today().year} ",
-                rx.span("MCPikon by Javier Picón.", color=Color.PRIMARY.value),
-            ),
-            href=const.MY_WEB_URL,
-            is_external=True,
-            font_size=Size.MEDIUM.value,
-        ),
-        rx.text(
-            "BUILDING SOFTWARE WITH ♥ FROM MADRID TO THE WORLD.",
-            font_size=Size.MEDIUM.value,
-            margin_top=Size.ZERO.value,
+        rx.box(
+            rx.text(
+                f"© {datetime.date.today().year} - Made from Spain with ♥ by ",
+                rx.link(rx.span("Javier Picón.", color=Color.PRIMARY.value), href="#"),
+                font_size=Size.MEDIUM.value,
+                margin_top=Size.ZERO.value,
+            )
         ),
         margin_bottom=Size.BIG.value,
         padding_bottom=Size.BIG.value,

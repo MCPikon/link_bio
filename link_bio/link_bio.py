@@ -31,8 +31,8 @@ def index() -> rx.Component:
 app = rx.App(style=styles.BASE_STYLE, overlay_component=None)
 app.add_page(
     index,
-    title="Javier Picón (MCPikon) | Java Developer",
-    description="Hola, mi nombre es Javier Picón. Soy desarrollador full-stack",
+    title="Javier Picón (MCPikon) | Web Developer",
+    description="Hola, mi nombre es Javier Picón. Soy desarrollador web",
     image="avatar.jpg",
 )
 app.compile()
