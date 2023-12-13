@@ -7,8 +7,8 @@ from link_bio.views.links.links import links
 from link_bio.components.footer import footer
 
 
-class State(rx.State):
-    pass
+# class State(rx.State):
+#     pass
 
 
 def index() -> rx.Component:
@@ -28,7 +28,7 @@ def index() -> rx.Component:
     )
 
 
-app = rx.App(style=styles.BASE_STYLE, overlay_component=None)
+app = rx.App(stylesheets=styles.STYLESHEETS, style=styles.BASE_STYLE)
 app.add_page(
     index,
     title="Javier Picón (MCPikon) | Web Developer",
