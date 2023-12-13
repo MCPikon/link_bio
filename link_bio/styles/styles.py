@@ -31,7 +31,11 @@ BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
     "font_weight": FontWeight.LIGHT.value,
     "background_color": Color.BACKGROUND.value,
-    rx.Heading: {"color": TextColor.HEADER.value},
+    rx.Heading: {
+        "color": TextColor.HEADER.value,
+        "font_family": Font.TITLE.value,
+        "font_weight": FontWeight.MEDIUM.value,
+    },
     rx.Button: {
         "width": "100%",
         "height": "100%",
