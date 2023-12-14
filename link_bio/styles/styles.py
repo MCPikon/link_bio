@@ -9,8 +9,8 @@ MAX_WIDTH = "560px"
 
 # Load fonts from google fonts api
 STYLESHEETS = [
-    "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap",
-    "https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap",
+    "https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap",
+    "https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap",
 ]
 
 
