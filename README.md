@@ -34,7 +34,8 @@ reflex init
 reflex run
 ```
 
-> 💡 Para generar una build estática del proyecto solo con la parte frontend puedes usar el script "build.sh"
+> [!TIP]
+> Para generar una build estática del proyecto solo con la parte frontend puedes usar el script "build.sh"
 
 ## Tecnologías
 
