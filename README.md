@@ -4,15 +4,15 @@
 [![Reflex](https://img.shields.io/badge/Reflex-0.4.6+-5646ED?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://reflex.dev) &nbsp;
 [![Vercel](https://img.shields.io/badge/Vercel-static-gray?style=for-the-badge&logo=vercel&logoColor=white&labelColor=101010)](https://vercel.com)
 
-## Autor
+## 🙋‍♂️ Autor
 
 * [Javier Picón](https://github.com/MCPikon)
 
-## Descripción
+## ✨ Descripción
 
 Web de enlaces personales creada con Python (3.10.12) y el framework [Reflex](https://reflex.dev).
 
-## Instalación
+## 📦 Instalación
 
 1. Clona el repositorio:
 
@@ -37,8 +37,16 @@ reflex run
 > [!TIP]
 > Para generar una build estática del proyecto solo con la parte frontend puedes usar el script "build.sh"
 
-## Tecnologías
+## 🛠 Tecnologías
 
 * Python 3.10.12
 * **Módulos:**
   * reflex 0.4.6
+
+## 📄 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la [Licencia 2.0 de Apache](LICENSE).
+
+---
+
+Iconos sacados de [FontAwesome](https://fontawesome.com/).
